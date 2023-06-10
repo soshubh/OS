@@ -43,7 +43,7 @@ An operating system is a piece of software that manages all the resources of a c
 2. Batch-Processing OS
 
    <p align="center">
-     <img src="Operating System/Simple-Batch-Operating-System.jpg" width="350" title="Batch-Processing OS">
+     <img src="Operating System/Simple-Batch-Operating-System.jpg" width="400" title="Batch-Processing OS">
    </p>
     
 3. Multiprogramming OS
