@@ -33,7 +33,6 @@ An operating system is a piece of software that manages all the resources of a c
 - Maximum CPU utilization
 - Less process starvation(Continuous ruining not giving chance to other processes)
 - Higher priority job execution
-- 
 
 ### Types of OS
 
