@@ -41,14 +41,15 @@ An operating system is a piece of software that manages all the resources of a c
     
     
 2. Batch-Processing OS
-    
-    ![Simple-Batch-Operating-System-Types-of-Operating-System (1).jpg](Operating%20System%20c048d636cdf542448216a01f6beb8450/Simple-Batch-Operating-System-Types-of-Operating-System_(1).jpg)
+
+   <p align="center">
+     <img src="Operating System/Simple-Batch-Operating-System.jpg" width="350" title="Batch-Processing OS">
+   </p>
     
 3. Multiprogramming OS
     
     **Context Switching :** a procedure that a computer's CPU (central processing unit) follows to change from one task (or process) to another while ensuring that the tasks do not conflict.
     
 4. Multitasking OS
-5. .
-6. .
-7.
+
+Coming........
