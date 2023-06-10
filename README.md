@@ -1,7 +1,4 @@
-# OS
 
-It's all about os notes
----
 # Operating System
 
 > Application software performs specific task	for	the user.
@@ -14,11 +11,15 @@ It's all about os notes
 
 An operating system is a piece of software that manages all the resources of a computer system, both hardware and software, and provides an environment in which the user can execute his / her programs in a convenient and efficient manner by hiding underlying complexity of the hardware and acting as a resource manager.
 
+---
+
 ### What if there is no OS?
 
 - Resource exploitation by App.
 - No memory protection.
 - Bulky and complex app.
+
+---
 
 ### An operating system function
 
@@ -28,11 +29,16 @@ An operating system is a piece of software that manages all the resources of a c
 - Hides the underlying complexity of the hardware.(Aka, Abstraction)
 - Facilitates execution of application programs by providing isolation and protection.
 
+---
+
 ### Goals of OS
 
 - Maximum CPU utilization
 - Less process starvation(Continuous ruining not giving chance to other processes)
 - Higher priority job execution
+
+
+---
 
 ### Types of OS
 
