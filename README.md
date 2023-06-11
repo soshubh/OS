@@ -60,7 +60,7 @@ An operating system is a piece of software that manages all the resources of a c
 Coming........
 
 
-
+  <p align="center">
 <table>
 <thead>
 	<tr>
@@ -82,3 +82,5 @@ Coming........
 	</tr>
 </tbody>
 </table>
+
+</p>
