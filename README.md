@@ -95,8 +95,8 @@ A process is any program in execution. It contains more than one thread which he
 <table>
     <thead>
         <tr>
-            <th> **Multi-Tasking** </th>
-            <th> **Multi-Threading** </th>
+            <th> Multi-Tasking </th>
+            <th> Multi-Threading </th>
         </tr>
     </thead>
     <tbody>
@@ -109,30 +109,18 @@ A process is any program in execution. It contains more than one thread which he
             <td> 2. Concept of more than 1 thread. Threads are context switched. </td>
         </tr>
         <tr>
-            <td></td>
-            <td></td>
+            <td> 3. Number of CPU is 1. </td>
+            <td> 3. Number of CPU is more then 1. </td>
         </tr>
         <tr>
-            <td></td>
-            <td></td>
+            <td> 4. Isolation and memory protection exists. OS must allocate separate memory and resources to each program that CPU is executing. </td>
+            <td> 4. No isolation and memory protection, resources are shared among threads of that process. </td>
         </tr>
     </tbody>
 </table>
 
-**Multi-Tasking**
+---
 
-1. Execution of more than one task simultaneously.
-2. Concept of more than 1 processes being context switched.
-3. Number of CPU is 1.
-4. Isolation and memory protection exists. OS must allocate separate memory and resources to each program that CPU is executing.
-
-**Multi-Threading**
-
-1. Process is divided into several different sub-tasks called as threads, which has its own path of execution.
-2. Concept of more than 1 thread. Threads are context switched.
-3. Number of CPU is more then 1.
-4. No isolation and memory protection, resources are shared among threads of that process.
---
 ### ****Process Scheduling****
 
 It is the scheduling of processes for their execution. It helps in the efficient utilization of the CPU.
