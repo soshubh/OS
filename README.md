@@ -117,8 +117,10 @@ It is the scheduling of processes for their execution. It helps in the efficient
 
 Threads are scheduled for execution based on their priority. Even though threads are
 executing within the runtime, all threads are assigned processor time slices by the operating
-system
+system.
+
 ---
+
 ### Process Scheduling vs Thread Scheduling
 
  | Process Scheduling | Thread Scheduling |
@@ -129,16 +131,7 @@ space. |
 | 3. OS saves current state of thread & switches to another thread of same process. | 3. OS saves current state of process & switches to another process by restoring its state.|
 | 4. CPU’s cache state is preserved | 4. CPU’s cache state is flushed|
 
-
-Thread Scheduling
-
-1. Slow
-2. Includes switching of memory address
-space.
-3. OS saves current state of process &
-switches to another process by restoring its
-state.
-4. CPU’s cache state is flushed
+ache state is flushed
 
 Coming........
 
