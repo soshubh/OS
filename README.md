@@ -92,7 +92,33 @@ There are two types of threads.
 A process is any program in execution. It contains more than one thread which helps it in doing multiple tasks at a time.
 
 ### Multi-Tasking vs Multi-Threading
----
+<table>
+    <thead>
+        <tr>
+            <th> **Multi-Tasking** </th>
+            <th> **Multi-Threading** </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td> 1. Execution of more than one task simultaneously. </td>
+            <td> 1. Process is divided into several different sub-tasks called as threads, which has its own path of execution. </td>
+        </tr>
+        <tr>
+            <td> 2. Concept of more than 1 processes being context switched. </td>
+            <td> 2. Concept of more than 1 thread. Threads are context switched. </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
+
 **Multi-Tasking**
 
 1. Execution of more than one task simultaneously.
@@ -102,9 +128,7 @@ A process is any program in execution. It contains more than one thread which he
 
 **Multi-Threading**
 
-1. Process is divided into several different
-sub-tasks called as threads, which has its
-own path of execution.
+1. Process is divided into several different sub-tasks called as threads, which has its own path of execution.
 2. Concept of more than 1 thread. Threads are context switched.
 3. Number of CPU is more then 1.
 4. No isolation and memory protection, resources are shared among threads of that process.
