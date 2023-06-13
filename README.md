@@ -71,7 +71,7 @@ An operating system is a piece of software that manages all the resources of a c
     
 6. **Distributed OS (Loosely Coupled)**
     
-    ****It serves multiple real-time applications which require multiple CPUs. Various computers communicate with each other through a network.
+    It serves multiple real-time applications which require multiple CPUs. Various computers communicate with each other through a network.
     
 7. **RTOS (Real Time OS)**
     
@@ -140,11 +140,8 @@ system.
  | 1. Fast | 1. Slow |
  | 2. Doesn’t includes switching of memory address space.| 2. Includes switching of memory address
 space. |
-| 3. OS saves current state of thread & switches to another thread of same process. | 3. OS saves current state of process & switches to another process by restoring its state.|
-| 4. CPU’s cache state is preserved | 4. CPU’s cache state is flushed|
+ | 3. OS saves current state of thread & switches to another thread of same process. | 3. OS saves current state of process & switches to another process by restoring its state.|
+ | 4. CPU’s cache state is preserved | 4. CPU’s cache state is flushed|
 
-ache state is flushed
 
 Coming........
-
-
