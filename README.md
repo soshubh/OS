@@ -15,7 +15,7 @@ An operating system is a piece of software that manages all the resources of a c
 1. Resource exploitation by App.
 2. No memory protection.
 3. Bulky and complex app.
-
+---
 ### An operating system function
 
 - Access to the computer hardware.
@@ -23,13 +23,13 @@ An operating system is a piece of software that manages all the resources of a c
 - Resource management(Aka, Arbitration)(memory, device, file, security, process etc)
 - Hides the underlying complexity of the hardware.(Aka, Abstraction)
 - Facilitates execution of application programs by providing isolation and protection.
-
+---
 ### Goals of OS
 
 - Maximum CPU utilization
 - Less process starvation(Continuous ruining not giving chance to other processes)
 - Higher priority job execution
-
+---
 ### Types of OS
 
 1. **Single Process OS**
@@ -77,7 +77,7 @@ An operating system is a piece of software that manages all the resources of a c
     
     **RTOS** is an operating system intended to serve real time application that process data as it comes in, mostly without buffer delay. The full form of RTOS is Real time operating system.
     
-
+---
 ### **Thread** *(Light-weight process)*
 
 A thread is a component of a process. It helps a process in doing multiple tasks at a time. A process may contain multiple threads.
@@ -86,13 +86,13 @@ There are two types of threads.
 
 1. User threads - It is implemented by the user.
 2. Kernel threads - It is implemented by the Operating System.
-
+---
 ### **Process**
 
 A process is any program in execution. It contains more than one thread which helps it in doing multiple tasks at a time.
 
 ### Multi-Tasking vs Multi-Threading
-
+---
 **Multi-Tasking**
 
 1. Execution of more than one task simultaneously.
@@ -108,7 +108,7 @@ own path of execution.
 2. Concept of more than 1 thread. Threads are context switched.
 3. Number of CPU is more then 1.
 4. No isolation and memory protection, resources are shared among threads of that process.
-
+--
 ### ****Process Scheduling****
 
 It is the scheduling of processes for their execution. It helps in the efficient utilization of the CPU.
@@ -118,17 +118,19 @@ It is the scheduling of processes for their execution. It helps in the efficient
 Threads are scheduled for execution based on their priority. Even though threads are
 executing within the runtime, all threads are assigned processor time slices by the operating
 system
-
+---
 ### Process Scheduling vs Thread Scheduling
 
-**Process Scheduling**
+ | Process Scheduling | Thread Scheduling |
+ |-------------------|---------------------|
+ | 1. Fast | 1. Slow |
+ | 2. Doesn’t includes switching of memory address space.| 2. Includes switching of memory address
+space. |
+| 3. OS saves current state of thread & switches to another thread of same process. | 3. OS saves current state of process & switches to another process by restoring its state.|
+| 4. CPU’s cache state is preserved | 4. CPU’s cache state is flushed|
 
-1. Fast
-2. Doesn’t includes switching of memory address space.
-3. OS saves current state of thread & switches to another thread of same process.
-4. CPU’s cache state is preserved
 
-**Thread Scheduling**
+Thread Scheduling
 
 1. Slow
 2. Includes switching of memory address
